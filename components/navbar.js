@@ -11,7 +11,8 @@ let navbar=()=>{
                 <div class="dropdown-item">Careers</div>
             </div>
         </div>
-        <div id="signin">Signin </div>
+        <div id="signin"> <a href="signin.html"> Signin </a></div>
+        <div id="signin"> <a href="cart.html"> <i class="fa-solid fa-cart-shopping"></i> </a></div>
         <div><a   href="">&nbsp&nbsp <b id="join">Join</b> &nbsp&nbsp</a></div>
     </div>
 <div id="lowerNav">
