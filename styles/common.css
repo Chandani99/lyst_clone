@@ -26,6 +26,17 @@ body{
     font-size: 14px;
     margin: 0%;
 }
+
+#upperNav>div>.sc{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+#upperNav>div>.sc>i{
+    
+    font-size: 17px;
+}
+
 #upperNav>div{
     display: flex;
     justify-content: center;
@@ -76,7 +87,7 @@ body{
  text-decoration: underline;
 }
 
-#upperNav>div>a{
+#upperNav>div>#join1{
     background-color: black;
     color: white;
     font-size: 13px;
