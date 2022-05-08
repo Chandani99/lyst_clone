@@ -154,7 +154,12 @@
 #priceSection>div{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* height: 40px; */
+    border-bottom: 1px solid rgb(245, 242, 242);
+    align-items: center;
 }
 #priceSection>#headingPrice{
     font-size: 20px;
@@ -163,14 +168,12 @@
 }
 #priceSection>#headingPrice>#totalPrice{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-#priceSection>.des{
-    font-size: 16px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    /* height: 40px; */
-    border-bottom: 1px solid rgb(245, 242, 242);
+#priceSection>.des>div>h5{
+     font-size: 16px;
+   
 }
 #priceSection>.des>.price{
     display: flex;
@@ -224,3 +227,4 @@
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
 }
+
